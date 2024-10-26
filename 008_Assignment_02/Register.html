@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register New Member</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Register New Member</h1>
+    <form action="Update.html" target="_blank">
+        <p>Full Name: <input type="text" name="Name" id="" placeholder="Full Name" required></p>
+    <p>Email: <input type="email" name="Email" id="" placeholder="Email" required></p>
+    <p> Mobile No: <input type="number" name="Mobile No" id="" placeholder="Mobile No"></p>
+    <p> Gender: Male: <input type="radio" name="Gender" id=""> Female: <input type="radio" name="Gender" id="">  Other: <input type="radio" name="Gender" id=""></p>
+    <p>Address: <textarea name="Address" id="" style="width: 100%; height: 50%;"></textarea></p>
+    <p>Designation: 
+        <select name="Designation" id="Designation">
+            <option value="Select Designation"></option>
+            <option value="Principal">Principal</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Staff">Staff</option>
+        </select>
+    </p>
+    <p>Department: 
+        <select name="Department" id="Department">
+            <option value="Select Department"></option>
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Arts">Arts</option>
+        </select>
+    </p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
