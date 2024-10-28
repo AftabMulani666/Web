@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- If The External Css Link Is Below Internal Css Then It Overwrites The Internal Css -->
+    <style>
+        .Code{
+            color: blue;
+        }
+        /* If There Is Not Any Inline Css Then The First Priority Goes For Internal Css Only If The Link Tag Is Above The Internal Css  */
+    </style>
+    <title>Specifity For CSS</title>
+</head>
+<body>
+    <h1>Aftab</h1>
+    <h2 class="Code" style="color: red;">This Is A HTML File</h2>   
+     <!-- The First Priorty For Selecting The Tag Goes For  Inline CSS Because The Compiler Read The Code From Top To Down Approach  -->
+    <p>Welcome Coders</p>
+</body>
+</html>
