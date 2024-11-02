@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px 30px;
+    padding: 10px;
+}
+
+
+.container{
+    border: 5px solid grey;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 5px 20px 15px 20px;
+}
+input[text],
+input[number],
+input[password],
+#cardno,#cpin,
+textarea{
+    width: 100%; 
+    padding: 20px;
+    margin: 10px;
+}
+#name{
+    margin: 10px;
+}
+#mobno{
+    margin: 10px;
+}
+#cardtype{
+    margin: 20px;
+}
+#payam{
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+}
+#name{
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+}
+#mobno{
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+}
+input[type="submit"]{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: darkgray;
+    height: 30px;
+}
+input[type="submit"]:hover{
+   background-color: skyblue;
+}
