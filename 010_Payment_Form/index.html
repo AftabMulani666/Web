@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Style1.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        <h1>Payment Form</h1>
+        <label for="name">Full Name</label>
+        <input type="text" name="Full Name" id="name" required> <br>
+        <label for="MobNo">Mobile No</label>
+        <input type="number" name="MobNo" id="mobno" placeholder="+91 9876543210"> <br>
+        <p> Address :
+        <textarea name="Address" id="Address" placeholder="Address"></textarea> <br> </p>
+        <fieldset>
+            <legend>Gender</legend>
+             Male : <input type="radio" name="gender" id="gender">
+             Female : <input type="radio" name="gender" id="gender">
+        </fieldset>
+        <label for="cardtype">Card Type</label>
+        <select name="cardtype" id="cardtype">
+            <option value="">Select</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+        </select> <br>
+        <label for="cardno">Card Number</label>
+        <input type="number" name="cardno" id="cardno" placeholder="1111-2222-3333"> <br>
+        <label for="cardpin">Card Pin</label>
+        <input type="password" name="cardpin" id="cpin" placeholder="**12"> <br>
+        <label for="payam">Payable Amount</label>
+        <input type="number" name="payam" id="payam"> <br>
+        <input type="submit" value="Pay Now">
+        </form>
+    </div>
+</body>
+</html>
